@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "o0/0v2wctBlDbLUcOUsIzgnIOivZwGtZvRj3bUaVzSeldSTo9Tcd+Xivnz9vuSHPVIhNpje+VfhqrhyTmf79Uw==",
+  "success": true,
+  "projectFilePath": "/home/scrviy/dev/dotnet/Dados/Dados.csproj",
+  "expectedPackageFiles": [
+    "/home/scrviy/.nuget/packages/microsoft.aspnetcore.app.ref/7.0.1/microsoft.aspnetcore.app.ref.7.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}

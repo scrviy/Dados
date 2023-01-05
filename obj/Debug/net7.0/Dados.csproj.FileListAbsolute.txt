@@ -1,0 +1,15 @@
+/home/scrviy/dev/dotnet/Dados/bin/Debug/net7.0/Dados
+/home/scrviy/dev/dotnet/Dados/bin/Debug/net7.0/Dados.deps.json
+/home/scrviy/dev/dotnet/Dados/bin/Debug/net7.0/Dados.runtimeconfig.json
+/home/scrviy/dev/dotnet/Dados/bin/Debug/net7.0/Dados.dll
+/home/scrviy/dev/dotnet/Dados/bin/Debug/net7.0/Dados.pdb
+/home/scrviy/dev/dotnet/Dados/obj/Debug/net7.0/Dados.csproj.AssemblyReference.cache
+/home/scrviy/dev/dotnet/Dados/obj/Debug/net7.0/Dados.GeneratedMSBuildEditorConfig.editorconfig
+/home/scrviy/dev/dotnet/Dados/obj/Debug/net7.0/Dados.AssemblyInfoInputs.cache
+/home/scrviy/dev/dotnet/Dados/obj/Debug/net7.0/Dados.AssemblyInfo.cs
+/home/scrviy/dev/dotnet/Dados/obj/Debug/net7.0/Dados.csproj.CoreCompileInputs.cache
+/home/scrviy/dev/dotnet/Dados/obj/Debug/net7.0/Dados.dll
+/home/scrviy/dev/dotnet/Dados/obj/Debug/net7.0/refint/Dados.dll
+/home/scrviy/dev/dotnet/Dados/obj/Debug/net7.0/Dados.pdb
+/home/scrviy/dev/dotnet/Dados/obj/Debug/net7.0/Dados.genruntimeconfig.cache
+/home/scrviy/dev/dotnet/Dados/obj/Debug/net7.0/ref/Dados.dll
