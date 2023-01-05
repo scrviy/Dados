@@ -7,7 +7,8 @@ namespace Dados
         public static void Main(string[] args)
         {
             // Tipos integrais com sinal
-             Console.WriteLine("Signed integral types:");
+            
+            Console.WriteLine("Signed integral types:");
 
             Console.WriteLine($"sbyte   : {sbyte.MinValue} to {sbyte.MaxValue}");
             Console.WriteLine($"short   : {short.MinValue} to {short.MaxValue}");
@@ -15,6 +16,7 @@ namespace Dados
             Console.WriteLine($"long    : {long.MinValue} to {long.MaxValue}");
 
             // tipos integrais sem sinal
+            
             Console.WriteLine("");
             Console.WriteLine("Unsigned integral types:");
 
@@ -22,6 +24,22 @@ namespace Dados
             Console.WriteLine($"ushort  : {ushort.MinValue} to {ushort.MaxValue}");
             Console.WriteLine($"uint    : {uint.MinValue} to {uint.MaxValue}");
             Console.WriteLine($"ulong   : {ulong.MinValue} to {ulong.MaxValue}");
+            
+
+            //* Tipos de pontos flutuantes
+            
+            Console.WriteLine("");
+            Console.WriteLine("Floating point types:");
+            Console.WriteLine($"float   : {float.MinValue} to {float.MaxValue} (with ~6-9 digits of precision)");
+            Console.WriteLine($"double  : {double.MinValue} to {float.MaxValue} (with ~15-17 digits of precision)");
+            Console.WriteLine($"decimal : {decimal.MinValue} to {decimal.MaxValue} (with 28-29 digits of precision)");
+            
+
+            //* Tipos de Referência
+            int[] data = new int[3];
+
+            string shortenedString = "Hello World!";
+            Console.WriteLine(shortenedString);
         }
     }
 }
