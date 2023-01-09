@@ -4,7 +4,7 @@
     {
         public static void Main(string[] args)
         {
-            // Tipos integrais com sinal            
+             // Tipos integrais com sinal            
             Console.WriteLine("Signed integral types:");
 
             Console.WriteLine($"sbyte   : {sbyte.MinValue} to {sbyte.MaxValue}");
@@ -33,6 +33,37 @@
 
             string shortenedString = "Hello World!";
             Console.WriteLine(shortenedString);
+            
+
+             //Escrever o código que tenta adicionar um int e uma cadeia de caracteres e salvar o resultado em um int
+            int first = 2;
+            string second = "4";
+            string result = first + second;
+            Console.WriteLine(result);
+            
+
+            
+            //Conversao implicita
+            int myInt = 3;
+            Console.WriteLine($"int: {myInt}");
+
+            decimal myDecimal = myInt;
+            Console.WriteLine($"decimal: {myDecimal}");
+            
+
+            // Conversao cast
+            decimal PI = 3.14m;
+            Console.WriteLine($"decimal: {PI}");
+
+            int myPi = (int)PI;
+            Console.WriteLine($"myPi: {myPi}");
+            
+
+            //converter um numero em uma cadeia de caracteres usando ToString()
+            int number1 = 5;
+            int number2 = 7;
+            string message = number1.ToString() + number2.ToString();
+            Console.WriteLine(message);
         }
     }
 }
