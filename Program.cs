@@ -3,7 +3,7 @@
     public class Dados
     {
         public static void Main(string[] args)
-        {
+        { 
              // Tipos integrais com sinal            
             Console.WriteLine("Signed integral types:");
 
@@ -64,6 +64,28 @@
             int number2 = 7;
             string message = number1.ToString() + number2.ToString();
             Console.WriteLine(message);
+            
+
+             //converter uma cadeia de caracteres em um numero usando Parse()
+            string numberMath = "5";
+            string number1_Math = "7";
+            int sum = int.Parse(numberMath) + int.Parse(number1_Math);
+            Console.WriteLine(sum);
+            
+
+             //converter cadeia de caracteres para um numero usando classe Convert
+            string value1 = "5";
+            string value2 = "7";
+            int resulter = Convert.ToInt32(value1) * Convert.ToInt32(value2);
+            Console.WriteLine(resulter);
+            
+
+            //comparar a conversao cast e a conversao decimal em int
+            int valor = (int)1.5m; //casting truncates
+            Console.WriteLine(valor);
+
+            int valor2 = Convert.ToInt32(1.5m); //converting rounds up
+            Console.WriteLine(value2);
         }
     }
 }
