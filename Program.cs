@@ -3,7 +3,7 @@
     public class Dados
     {
         public static void Main(string[] args)
-        { 
+        {   
              // Tipos integrais com sinal            
             Console.WriteLine("Signed integral types:");
 
@@ -85,7 +85,24 @@
             Console.WriteLine(valor);
 
             int valor2 = Convert.ToInt32(1.5m); //converting rounds up
-            Console.WriteLine(value2);
+            Console.WriteLine(value2); 
+
+            //metodo tryParse()
+            string value = "bad";
+            int resultado = 0;
+            if (int.TryParse(value, out resultado))
+            {
+                Console.WriteLine($"Measurement: {result}");
+            }
+            else
+            {
+                Console.WriteLine("Unable to report the measurement.");
+            }
+
+            // Since it is defined outside of the if statement,
+            
+            if (resultado > 0)// it can be accesed later in your code
+                Console.WriteLine($"Measurement (w/ offset): {50 + result}");
         }
     }
 }
