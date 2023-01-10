@@ -3,7 +3,7 @@
     public class Dados
     {
         public static void Main(string[] args)
-        {   
+        { 
              // Tipos integrais com sinal            
             Console.WriteLine("Signed integral types:");
 
@@ -103,6 +103,42 @@
             
             if (resultado > 0)// it can be accesed later in your code
                 Console.WriteLine($"Measurement (w/ offset): {50 + result}");
+                
+
+            //Desafio
+            string[] valores = { "12.3", "45", "ABC", "11", "DEF" };
+
+            decimal total = 0m;
+            string outputMessage = "";
+
+            foreach (var valueRandom in valores)
+            {
+                decimal number;
+                if (decimal.TryParse(valueRandom, out number))
+                {
+                    total += number;
+                } else
+                {
+                    outputMessage += value;
+                }
+            }
+
+            Console.WriteLine($"Message: {message}");
+            Console.WriteLine($"Total: {total}"); 
+
+            //Desafio 2
+            int numero1 = 12;
+            decimal numero2 = 6.2m;
+            float numero3 = 4.3f;
+
+            int resultado1 = Convert.ToInt32((decimal) numero1 / numero2);
+            Console.WriteLine($"Divide value1 by value2, display the result as an int: {resultado1}");
+
+            decimal resultado2 = numero2 / (decimal)numero3;
+            Console.WriteLine($"Divide value2 by value3, display the result as a decimal: {resultado2}");
+
+            float resultado3 = numero3 / numero1;
+            Console.WriteLine($"Divide value3 by value1, display the result as a float: {resultado3}");
         }
     }
 }
